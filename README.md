@@ -1,5 +1,5 @@
 # TopDownGML
-A proof of concept for top down games in GM:S 2
+A proof of concept for top down games in GM:S 2.  If I can get some core functionality down, I have plans to turn this into a fully fledged story-based top down RPG.
 
 # Development Log
 This is temporary, I'll find a better place later
