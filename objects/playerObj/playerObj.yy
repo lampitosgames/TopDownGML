@@ -2,7 +2,7 @@
     "id": "054a600c-3270-4893-a82a-88661fe84608",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objPlayer",
+    "name": "playerObj",
     "eventList": [
         {
             "id": "8bca6b52-d31b-4f1d-b71d-c7a25b5396f0",
@@ -40,12 +40,12 @@
     "persistent": false,
     "physicsAngularDamping": 0,
     "physicsDensity": 0.1,
-    "physicsFriction": 0,
+    "physicsFriction": 0.2,
     "physicsGroup": 0,
     "physicsKinematic": false,
     "physicsLinearDamping": 0,
     "physicsObject": true,
-    "physicsRestitution": 0.1,
+    "physicsRestitution": 0,
     "physicsSensor": false,
     "physicsShape": 1,
     "physicsShapePoints": [

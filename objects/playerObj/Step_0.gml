@@ -35,7 +35,7 @@ if (!isJumping) {
 	//If the movement vector is zero, that means no movement inputs are detected.
 	if (visZero(curDirVec)) {
 		//Set damping to 15 so the player decelerates quickly to a stop
-		phy_linear_damping = 15;
+		phy_linear_damping = 20;
 		
 	//Inputs are detected
 	} else {
@@ -53,12 +53,18 @@ if (!isJumping) {
 		phy_linear_velocity_y = vel[1];
 	}
 	
-	//If the jump key was pressed this step
-	if (global.in[jump] == 1 && global.inPrev[jump] == 0) {
+	//Decriment the jump cooldown
+	jumpTimer -= 1;
+	//If the jump key was pressed this step and jumping is off of cooldown
+	if (global.in[jump] == 1 && global.inPrev[jump] == 0 && jumpTimer <= 0) {
 		//The player is now jumping
 		isJumping = true;
 		//Set the jump length based on a constant
 		jumpTimer = floor(global.stepsInSecond/jumpLengthMod);
+		//Make sure the velocity has a magnitude of 0.5*movementSpeed or above
+		if (vmag(vel) <= 0.5*movementSpeed) {
+			vsetMag(0.5*movementSpeed, vel);
+		}
 		//Apply a jump impulse based on current velocity
 		physics_apply_local_impulse(0, 0, vel[0]*jumpModifier, vel[1]*jumpModifier);
 	}
@@ -68,5 +74,8 @@ if (!isJumping) {
 	//If the player is holding jump, decriment the jump timer.
 	//If the player has released the jump key, end the jump
 	if (global.in[jump]) { jumpTimer -= 1; } else { jumpTimer = 0; }
-	if (jumpTimer <= 0) { isJumping = false; }
+	if (jumpTimer <= 0) {
+		isJumping = false;
+		jumpTimer = floor(global.stepsInSecond/jumpCooldownMod);
+	}
 }

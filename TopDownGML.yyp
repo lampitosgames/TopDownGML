@@ -908,7 +908,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\objPlayer\\objPlayer.yy",
+                "resourcePath": "objects\\playerObj\\playerObj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1193,7 +1193,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\\sprite_13\\sprite_13.yy",
+                "resourcePath": "sprites\\wallMarkerSpr\\wallMarkerSpr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1252,6 +1252,63 @@
                 ],
                 "resourcePath": "scripts\\visZero\\visZero.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "194329d1-0d90-4202-a7f6-16570dd938e0",
+            "Value": {
+                "id": "fe3201a2-a5c4-480a-913a-151a0c059704",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\wallObj\\wallObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c6254699-bf0c-4d02-9174-fb399ce608e2",
+            "Value": {
+                "id": "9f997f35-32d3-4f8e-bb6c-6d925d6d6aa3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\cameraObj\\cameraObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f1a9b4e8-99ae-42f9-a3a2-0b44217634c9",
+            "Value": {
+                "id": "958f5c40-0d07-4acc-bbda-86a96ff65dd9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\cameraSpr\\cameraSpr.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
