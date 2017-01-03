@@ -1,2 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Initialize variables
+
+maxSpeed = 10;
+slowingDistance = 40;
+vel = [0, 0];

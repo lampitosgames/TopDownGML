@@ -8,6 +8,7 @@ global.kb[left] = ord("A");
 global.kb[jump] = vk_space;
 global.kb[sprint] = vk_lshift;
 global.kb[sneak] = vk_lcontrol;
+global.kb[debugToggle] = vk_f9;
 
 //Initialize previous input state
 global.inPrev = [];
@@ -21,6 +22,7 @@ global.in[left] = keyboard_check(global.kb[left]);
 global.in[jump] = keyboard_check(global.kb[jump]);
 global.in[sprint] = keyboard_check(global.kb[sprint]);
 global.in[sneak] = keyboard_check(global.kb[sneak]);
+global.in[debugToggle] = keyboard_check(global.kb[debugToggle]);
 
 //Set up non-keybound input states
 global.in[dirVec] = [0, 0];

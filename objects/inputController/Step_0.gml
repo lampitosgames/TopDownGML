@@ -10,6 +10,7 @@ global.in[left] = keyboard_check(global.kb[left]);
 global.in[jump] = keyboard_check(global.kb[jump]);
 global.in[sprint] = keyboard_check(global.kb[sprint]);
 global.in[sneak] = keyboard_check(global.kb[sneak]);
+global.in[debugToggle] = keyboard_check(global.kb[debugToggle]);
 // TODO: Set up controllers/secondary keybinds as follows:
 //global.in[action] = keyboard_check(global.kb[action]) || keyboard_check(global.kbGamepad[action]);
 

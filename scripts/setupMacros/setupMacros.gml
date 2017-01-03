@@ -6,7 +6,8 @@
 #macro jump 4
 #macro sprint 5
 #macro sneak 6
+#macro debugToggle 7
 
 //non-keybound actions
-#macro dirVec 7
-#macro dvSwitch 8
+#macro dirVec 8
+#macro dvSwitch 9

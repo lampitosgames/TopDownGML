@@ -3,3 +3,4 @@
 if (debug_mode) {
 	runAllTests();
 }
+global.debug = false;
