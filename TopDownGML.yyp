@@ -1367,6 +1367,63 @@
                 "resourcePath": "views\\e6556d88-7c37-4121-be24-79d377631081.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "79b279dd-349e-4e75-a4ba-ff013d2c0a93",
+            "Value": {
+                "id": "547b1f9a-ecfc-44a6-a1ca-87d34f4fe272",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\pitfallObj\\pitfallObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8320500b-cd10-43c8-ae54-acb2aa2a8643",
+            "Value": {
+                "id": "db87befa-da4e-4c37-8e5a-80b803b3e4e7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\floorMarkerSpr\\floorMarkerSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9b33842c-9ba4-40c4-83cf-c20c14c258f5",
+            "Value": {
+                "id": "d0f9ece5-525d-4912-864c-c0cc968dc766",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\pitfallMarkerSpr\\pitfallMarkerSpr.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [
