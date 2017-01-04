@@ -2,8 +2,8 @@
 
 phy_fixed_rotation = true;
 
-maxSpeed = 600;
-dirForceMag = 90;
+maxSpeed = 400;
+dirForceMag = 110;
 
 isJumping = false;
 isSprinting = false;

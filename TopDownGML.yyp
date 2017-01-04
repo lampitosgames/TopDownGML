@@ -1310,6 +1310,63 @@
                 "resourcePath": "sprites\\cameraSpr\\cameraSpr.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "0f0c1738-11d2-4a82-a50d-4340c36bbb3c",
+            "Value": {
+                "id": "fd6d599a-2b8a-4e63-9d59-0b16481c4c9d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\\prototypeDungeonTileset\\prototypeDungeonTileset.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "df77e1b8-9869-438b-a64b-cb7a30cd4325",
+            "Value": {
+                "id": "2a56d325-a816-4adf-b751-be0c30d4462e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\prototypeDungeonSpr\\prototypeDungeonSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e6556d88-7c37-4121-be24-79d377631081",
+            "Value": {
+                "id": "d4f37d2f-3551-46ff-90f0-834fc21d777d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\e6556d88-7c37-4121-be24-79d377631081.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "room_order": [

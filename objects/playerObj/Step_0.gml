@@ -35,7 +35,7 @@ if (!isJumping) {
 	//If the movement vector is zero, that means no movement inputs are detected.
 	if (visZero(curDirVec)) {
 		//Set damping to 15 so the player decelerates quickly to a stop
-		phy_linear_damping = 20;
+		phy_linear_damping = 25;
 		
 	//Inputs are detected
 	} else {
@@ -61,12 +61,12 @@ if (!isJumping) {
 		isJumping = true;
 		//Set the jump length based on a constant
 		jumpTimer = floor(global.stepsInSecond/jumpLengthMod);
-		//Make sure the velocity has a magnitude of 0.5*movementSpeed or above
-		if (vmag(vel) <= 0.5*movementSpeed) {
-			vsetMag(0.5*movementSpeed, vel);
-		}
+		//Set the jump speed
+		var jumpSpeed = vsetMagTo(maxSpeed*jumpModifier, vel);
+		if (isSprinting) { vscale(sprintMod, jumpSpeed); }
+		if (isSneaking) { vscale(sneakMod, jumpSpeed); }
 		//Apply a jump impulse based on current velocity
-		physics_apply_local_impulse(0, 0, vel[0]*jumpModifier, vel[1]*jumpModifier);
+		physics_apply_local_impulse(0, 0, jumpSpeed[0], jumpSpeed[1]);
 	}
 
 //The player is currently jumping
