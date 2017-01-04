@@ -1424,6 +1424,44 @@
                 "resourcePath": "sprites\\pitfallMarkerSpr\\pitfallMarkerSpr.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "02d62637-ae6a-4891-acff-fd984ee1744d",
+            "Value": {
+                "id": "ed506647-daaf-485d-920c-9b1c2418e7da",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\02d62637-ae6a-4891-acff-fd984ee1744d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bdd97c40-b575-47c8-9553-4584cb7da1bd",
+            "Value": {
+                "id": "1bcacdca-d275-4442-b4ee-083bd14c051c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\isPlayerInPitfall\\isPlayerInPitfall.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "room_order": [
@@ -1448,6 +1486,7 @@
         "a41178eb-473a-479d-aecb-2ef4dc13e5d6",
         "bc92708a-8951-4868-8113-2a41557b11c8",
         "4967f5cb-49c2-4d05-956c-fffeb38843ac",
+        "bdd97c40-b575-47c8-9553-4584cb7da1bd",
         "b41c3d18-b894-4abf-82b1-2a69ba793192",
         "79f18644-012d-4d8d-9119-48b0a501daf9",
         "69af38c3-9d81-46dc-beb2-6f8f6a216177"

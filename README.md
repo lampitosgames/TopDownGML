@@ -4,6 +4,7 @@ A proof of concept for top down games in GM:S 2.  If I can get some core functio
 # Development Log #
 This is temporary, I'll find a better place later.
 #### January 2017 ####
+- 01/04/17: Updated lots of movement constants. Jumping feels a lot more natural. Added a prototype tileset and created a test room for platforming across various sized gaps and over water. Added a "falling" effect.
 - 01/03/17: Added simple wall collisions. Added a camera with movement acceleration. Changed some player movement constants. Added a toggle-able debug flag.
 
 #### December 2016 ####

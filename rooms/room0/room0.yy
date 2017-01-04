@@ -47078,11 +47078,35 @@
             "y": 0
         },
         {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "id": "e135786e-5238-4af9-8f93-957b82b5f6fe",
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "depth": 700,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+                
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "name": "fallingLayer",
+            "userdefined_depth": false,
+            "visible": true,
+            "instances": [
+                
+            ]
+        },
+        {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
             "id": "a4c9c7de-7ab4-48cf-8f34-a8180097f78c",
             "modelName": "GMRTileLayer",
             "mvc": "1.0",
-            "depth": 700,
+            "depth": 800,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
@@ -61515,7 +61539,7 @@
             "id": "f9541e09-b70a-4abb-9426-2c0229084ffe",
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "depth": 800,
+            "depth": 900,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,

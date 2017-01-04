@@ -8,20 +8,10 @@ var vel = [phy_linear_velocity_x, phy_linear_velocity_y];
 var movementSpeed = maxSpeed;
 
 //Check if the player is on the floor
-isInPitfall = false;
-if (place_meeting(phy_position_x, phy_position_y-40, pitfallObj) &&
-	place_meeting(phy_position_x+40, phy_position_y, pitfallObj) &&
-	place_meeting(phy_position_x, phy_position_y+40, pitfallObj) &&
-	place_meeting(phy_position_x-40, phy_position_y, pitfallObj) &&
-	place_meeting(phy_position_x-40, phy_position_y-40, pitfallObj) &&
-	place_meeting(phy_position_x+40, phy_position_y-40, pitfallObj) &&
-	place_meeting(phy_position_x+40, phy_position_y+40, pitfallObj) &&
-	place_meeting(phy_position_x-40, phy_position_y+40, pitfallObj)) {
-	isInPitfall = true;
-}
+isInPitfall = isPlayerInPitfall();
 
 //If the player is not jumping
-if (!isJumping && !isInPitfall) {
+if (!isJumping && !isInPitfall && !falling) {
 	//Save this as the last safe location
 	lastSafePos = [phy_position_x, phy_position_y];
 	
@@ -113,16 +103,41 @@ if (!isJumping && !isInPitfall) {
 } else {
 	//If there is a safe location within a 32 pixel radius, jump to there
 	var extendJump = vsetMagTo(48, vel);
-	if (place_empty(phy_position_x+extendJump[0], phy_position_y+extendJump[1])) {
+	if (!falling && place_empty(phy_position_x+extendJump[0], phy_position_y+extendJump[1])) {
+		//TODO: Do some detection in a radius and move to a safe space if possible
 		phy_position_x += extendJump[0];
 		phy_position_y += extendJump[1];
 		phy_linear_velocity_x = 0;
 		phy_linear_velocity_y = 0;
+		isInPitfall = false;
+	
+	//No safe location
 	} else {
-		phy_position_x = lastSafePos[0];
-		phy_position_y = lastSafePos[1];
-		phy_linear_velocity_x = 0;
-		phy_linear_velocity_y = 0;
+		if (!falling) {
+			falling = true;
+			fallTimer = floor(global.stepsInSecond*1.5);
+			vsetMag(16, extendJump);
+			phy_position_x += extendJump[0];
+			phy_position_y += extendJump[1];
+			phy_linear_velocity_x = 0;
+			phy_linear_velocity_y = 0;
+			layer = layer_get_id("fallingLayer");
+		}
+	
+		fallTimer -= 1;
+		if (fallTimer < floor(global.stepsInSecond*1.5) - floor(global.stepsInSecond/3)) {
+			physics_apply_local_force(0, 0, 0, 30);
+		}
+	
+		if (falling == true && fallTimer <= 0) {
+			isInPitfall = false;
+			falling = false;
+			fallTimer = 0;
+			phy_position_x = lastSafePos[0];
+			phy_position_y = lastSafePos[1];
+			phy_linear_velocity_x = 0;
+			phy_linear_velocity_y = 0;
+			layer = layer_get_id("Instances");
+		}
 	}
-	isInPitfall = false;
 }

@@ -23,3 +23,7 @@ sneakMod = 0.4;
 //How long (in seconds) before the sprint bonus can be applied to jumps
 sprintWarmup = 0.5;
 sprintWarmupCounter = 0;
+
+//Variables related to falling
+falling = false;
+fallTimer = 0;
