@@ -1,7 +1,7 @@
 {
     "id": "8320500b-cd10-43c8-ae54-acb2aa2a8643",
     "modelName": "GMSprite",
-    "mvc": "1.0",
+    "mvc": "1.11",
     "name": "floorMarkerSpr",
     "For3D": false,
     "HTile": false,
