@@ -12,8 +12,10 @@ isInPitfall = isPlayerInPitfall();
 
 //If the player is not jumping
 if (!isJumping && !isInPitfall && !falling) {
-	//Save this as the last safe location
-	lastSafePos = [phy_position_x, phy_position_y];
+	//Save this as the last safe location.  Subtract 1/10 of the velocity from the location to make sure the player lands safely
+	var pos = [phy_position_x, phy_position_y];
+	var scaledNegVel = vscaleTo(-0.1, vel);
+	lastSafePos = vaddTo(pos, scaledNegVel);
 	
 	//Check for sprinting/sneaking
 	movementSpeed = sprintSneakCheck(movementSpeed);

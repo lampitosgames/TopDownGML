@@ -1538,6 +1538,25 @@
                 "resourcePath": "scripts\\handlePlayerFalling\\handlePlayerFalling.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "38121bde-be70-463c-b3f4-e3da385fb547",
+            "Value": {
+                "id": "f4836aaa-df7f-42fd-aca0-401150e425fa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\vrotateTo\\vrotateTo.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "room_order": [
@@ -1562,6 +1581,7 @@
         "a41178eb-473a-479d-aecb-2ef4dc13e5d6",
         "bc92708a-8951-4868-8113-2a41557b11c8",
         "4967f5cb-49c2-4d05-956c-fffeb38843ac",
+        "38121bde-be70-463c-b3f4-e3da385fb547",
         "bdd97c40-b575-47c8-9553-4584cb7da1bd",
         "7c924727-3894-4362-a5e1-9ca13cc4655f",
         "08846f8c-d517-4bce-ad85-cb436cc5e0f6",

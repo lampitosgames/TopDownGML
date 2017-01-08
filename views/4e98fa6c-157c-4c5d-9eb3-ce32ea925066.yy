@@ -21,7 +21,8 @@
         "67d291dd-aeb5-4d59-b533-ce5ef8287469",
         "a41178eb-473a-479d-aecb-2ef4dc13e5d6",
         "bc92708a-8951-4868-8113-2a41557b11c8",
-        "4967f5cb-49c2-4d05-956c-fffeb38843ac"
+        "4967f5cb-49c2-4d05-956c-fffeb38843ac",
+        "38121bde-be70-463c-b3f4-e3da385fb547"
     ],
     "filterType": "GMScript",
     "folderName": "vectors",

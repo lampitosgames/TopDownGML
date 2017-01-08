@@ -14,7 +14,8 @@ isSprinting = false;
 isSneaking = false;
 
 jumpTimer = 0;
-jumpModifier = 0.045;
+//jumpModifier = 0.045;
+jumpModifier = 4.7;
 jumpCooldownMod = 2.5;
 jumpLengthMod = 6;
 
