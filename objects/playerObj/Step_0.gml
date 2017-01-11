@@ -6,9 +6,11 @@ var curDirVec = global.in[dirVec];
 var vel = [phy_linear_velocity_x, phy_linear_velocity_y];
 //Duplicate the max speed so modifiers can be used without changing the orignal
 var movementSpeed = maxSpeed;
+//re-calculate the bounding box
+boundingBox = [x-16, y, x+16, y+48];
 
 //Check if the player is on the floor
-isInPitfall = isPlayerInPitfall();
+isInPitfall = isPlayerInPitfall(boundingBox);
 
 //If the player is not jumping
 if (!isJumping && !isInPitfall && !falling && !global.paused) {

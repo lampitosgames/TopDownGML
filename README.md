@@ -4,7 +4,7 @@ A proof of concept for top down games in GM:S 2.  If I can get some core functio
 # Development Log #
 This is temporary, I'll find a better place later.
 #### January 2017 ####
-- 01/11/17: Added basic pause functionality.
+- 01/11/17: Added basic pause functionality. Overhauled pitfalls to use collision boxes. The player only falls if their entire collision box has entered a pitfall object. Added temporary player art from a different game I have lying around.
 - 01/10/17: Added very basic cursor functionality.  The sprite is a placeholder.
 - 01/08/17: Overhauled jumping by adding displacement prediction and a jumping 'aim assist'. When jumping, if the player would land in a pitfall, the game checks a 90 deg arc to find a safer landing location.  Also added a script to rotate vectors using a rotation matrix.
 - 01/06/17: Refactored the player's step event. I moved lots of code into individual scripts for long-term readability. The player's step event is growing quickly so breaking related logic into scripts seemed appropriate.

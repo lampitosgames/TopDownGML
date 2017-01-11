@@ -3,37 +3,31 @@
 //Save the direction vector locally
 var curDV = global.in[dirVec];
 
-if (dir[0] > 0 && dir[1] > 0) {
-	sprite_index = playerRDSpr;
-} else if (dir[0] > 0 && dir[1] < 0) {
-	sprite_index = playerURSpr;
-} else if (dir[0] < 0 && dir[1] > 0) {
-	sprite_index = playerDLSpr;
-} else if (dir[0] < 0 && dir[1] < 0) {
-	sprite_index = playerLUSpr;
-} else if (dir[0] > 0) {
-	sprite_index = playerRSpr;
-} else if (dir[0] < 0) {
-	sprite_index = playerLSpr;
-} else if (dir[1] > 0) {
-	sprite_index = playerDSpr;
-} else if (dir[1] < 0) {
-	sprite_index = playerUSpr;
+if (abs(curDV[0]) > 0 || abs(curDV[1]) > 0) {
+	if (dir[0] > 0) {
+		sprite_index = playerESpr;
+	} else if (dir[0] < 0) {
+		sprite_index = playerWSpr;
+	} else if (dir[1] > 0) {
+		sprite_index = playerDSpr;
+	} else if (dir[1] < 0) {
+		sprite_index = playerUSpr;
+	}
 } else {
-	sprite_index = playerStoppedSpr;
+	if (dir[0] > 0) {
+		sprite_index = playerEStoppedSpr;
+	} else if (dir[0] < 0) {
+		sprite_index = playerWStoppedSpr;
+	} else if (dir[1] > 0) {
+		sprite_index = playerDStoppedSpr;
+	} else if (dir[1] < 0) {
+		sprite_index = playerUStoppedSpr;
+	}
 }
 
-/* 4 direction sprites
-if (dir[0] > 0) {
-	sprite_index = playerRightSpr;
-} else if (dir[0] < 0) {
-	sprite_index = playerLeftSpr;
-} else if (dir[1] > 0) {
-	sprite_index = playerDownSpr;
-} else if (dir[1] < 0) {
-	sprite_index = playerUpSpr;
-} else {
-	sprite_index = playerStoppedSpr;
-}
-*/
 draw_self();
+
+if (global.debug) {
+	draw_rectangle_color(phy_position_x - 3, phy_position_y - 3, phy_position_x + 3, phy_position_y + 3, c_blue, c_blue, c_blue, c_blue, false);
+	draw_rectangle_color(boundingBox[0], boundingBox[1], boundingBox[2], boundingBox[3], c_fuchsia, c_fuchsia, c_fuchsia, c_fuchsia, true);
+}

@@ -28,3 +28,5 @@ sprintWarmupCounter = 0;
 //Variables related to falling
 falling = false;
 fallTimer = 0;
+
+boundingBox = [x-16, y, x+16, y+48];
