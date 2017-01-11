@@ -1557,6 +1557,63 @@
                 "resourcePath": "scripts\\vrotateTo\\vrotateTo.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "056c5575-0fc0-4625-a4d8-ab43bd56acb2",
+            "Value": {
+                "id": "dfb6e25c-2778-4024-b35f-1944155e29c8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\cursorObj\\cursorObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "aaab0a82-47f2-4e43-b1ac-8043889044f1",
+            "Value": {
+                "id": "658d4f4f-f183-4b70-ac44-33630995df57",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\cursorSpr\\cursorSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "763f51cf-f7e2-42b7-bfde-76317a3f6644",
+            "Value": {
+                "id": "e14ba4d6-ef89-404a-b6ce-666ed7eacecc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\subCursorSpr\\subCursorSpr.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [
