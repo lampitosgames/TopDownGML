@@ -12,7 +12,7 @@
         "20743c1f-ab60-46e3-814b-90167664c1ca"
     ],
     "filterType": "GMScript",
-    "folderName": "playerStepEvent",
+    "folderName": "player_step_event",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

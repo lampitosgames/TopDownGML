@@ -1614,6 +1614,25 @@
                 "resourcePath": "sprites\\subCursorSpr\\subCursorSpr.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "231a6ba3-3660-4f99-b4b8-c7a7f3d0eab0",
+            "Value": {
+                "id": "56c63ac9-0e8f-4f90-8e2a-9819059bd993",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\231a6ba3-3660-4f99-b4b8-c7a7f3d0eab0.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "room_order": [

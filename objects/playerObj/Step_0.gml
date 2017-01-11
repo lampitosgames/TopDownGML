@@ -11,7 +11,7 @@ var movementSpeed = maxSpeed;
 isInPitfall = isPlayerInPitfall();
 
 //If the player is not jumping
-if (!isJumping && !isInPitfall && !falling) {
+if (!isJumping && !isInPitfall && !falling && !global.paused) {
 	//Save this as the last safe location.  Subtract 1/10 of the velocity from the location to make sure the player lands safely
 	var pos = [phy_position_x, phy_position_y];
 	var scaledNegVel = vscaleTo(-0.1, vel);
@@ -29,7 +29,7 @@ if (!isJumping && !isInPitfall && !falling) {
 	startPlayerJump();
 
 //The player is currently jumping
-} else if (isJumping) {
+} else if (isJumping && !global.paused) {
 	//Decriment the jump timer.
 	jumpTimer -= 1;
 	//At the end of the jump, stop jumping
@@ -39,7 +39,7 @@ if (!isJumping && !isInPitfall && !falling) {
 	}
 
 //The player is falling
-} else {
+} else if (!global.paused) {
 	//Handle falling
 	handlePlayerFalling(vel);
 }
