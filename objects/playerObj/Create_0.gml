@@ -1,32 +1,8 @@
 ///@description Set Movement Constants
 
-phy_fixed_rotation = true;
+event_inherited();
 
-dir = [0, 1];
-isInPitfall = false;
-lastSafePos = [x, y];
-
-maxSpeed = 400;
-dirForceMag = 110;
-
-isJumping = false;
-isSprinting = false;
-isSneaking = false;
-
-jumpTimer = 0;
-//jumpModifier = 0.045;
-jumpModifier = 4.7;
-jumpCooldownMod = 5;
-jumpLengthMod = 6;
-
-sprintMod = 1.5;
-sneakMod = 0.4;
 //How long (in seconds) before the sprint bonus can be applied to jumps
 sprintWarmup = 0.5;
+//Step counter for the warmup
 sprintWarmupCounter = 0;
-
-//Variables related to falling
-falling = false;
-fallTimer = 0;
-
-boundingBox = [x-16, y, x+16, y+48];
