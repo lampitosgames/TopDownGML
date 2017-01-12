@@ -1,4 +1,4 @@
-///@description Detect if the jump key was pressed this step.  if it was, start jumping. Check an arc in front of the player to find a safe landing position.
+///@description Override default character behavior. Detect if the jump key was pressed this step.  if it was, start jumping. Check an arc in front of the player to find a safe landing position.
 
 //If the jump key was pressed this step and jumping is off of cooldown
 if (global.in[jump] == 1 && global.inPrev[jump] == 0 && jumpTimer <= 0) {
