@@ -1,6 +1,13 @@
-///@description Set Movement Constants
+///@description Setup the player character
 
 event_inherited();
+//Add a movement module
+movement = instance_create_depth(0, 0, 0, advancedMovementModule);
+movement.char = id;
+//All attributes start at 0.
+attr.vitality = 5;
+attr.endurance = 5;
+//etc.
 
 //How long (in seconds) before the sprint bonus can be applied to jumps
 sprintWarmup = 0.5;

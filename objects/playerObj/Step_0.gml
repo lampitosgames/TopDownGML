@@ -6,7 +6,7 @@ var pos = [phy_position_x, phy_position_y];
 curDirVec = global.in[dirVec];
 
 //If the player is not jumping
-if (!isJumping && !isInPitfall && !falling && !global.paused) {
+if (!movement.isJumping && !movement.isInPitfall && !movement.falling && !global.paused) {
 	//Scale the curDirVec by sprint/sneak modifiers if the player is sprinting/sneaking
 	sprintSneakCheck();
 	//If the curDirVec is zero, no inputs were detected. The parent object handles damping, so just reset the sprint warmup

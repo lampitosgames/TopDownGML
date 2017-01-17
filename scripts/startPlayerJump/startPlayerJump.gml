@@ -1,7 +1,7 @@
 ///@description Override default character behavior. Detect if the jump key was pressed this step.  if it was, start jumping. Check an arc in front of the player to find a safe landing position.
 
 //If the jump key was pressed this step and jumping is off of cooldown
-if (global.in[jump] == 1 && global.inPrev[jump] == 0 && jumpTimer <= 0) {
+if (global.in[jump] == 1 && global.inPrev[jump] == 0 && movement.jumpTimer <= 0) {
 	//Remove linear damping
 	phy_linear_damping = 0;
 	
@@ -9,22 +9,22 @@ if (global.in[jump] == 1 && global.inPrev[jump] == 0 && jumpTimer <= 0) {
 	var pos = [phy_position_x, phy_position_y];
 	
 	//The player is now jumping
-	isJumping = true;
+	movement.isJumping = true;
 	//Set the jump length based on a constant
-	jumpTimer = floor(global.stepsInSecond/jumpLengthMod);
+	movement.jumpTimer = floor(global.stepsInSecond/movement.jumpLengthMod);
 	//Set the jump velocity
-	var jumpVel = vsetMagTo(maxSpeed*jumpModifier, dir);
+	var jumpVel = vsetMagTo(movement.maxSpeed*movement.jumpModifier, movement.dir);
 	
 	//If the player is sprinting and moving fast enough
 	if (sprintWarmupCounter >= floor(global.stepsInSecond*sprintWarmup)) {
 		//Jump farther.  This allows for "run ups"
-		vscale(sprintMod, jumpVel);
+		vscale(movement.sprintMod, jumpVel);
 	}
 	//If the player is sneaking, make the jump very short
-	if (isSneaking) { vscale(sneakMod, jumpVel); }
+	if (movement.isSneaking) { vscale(movement.sneakMod, jumpVel); }
 	
 	//Get the jump velocity scaled by time.  This is the jump displacement
-	var jumpDisplacement = vscaleTo(jumpTimer*global.dt, jumpVel);
+	var jumpDisplacement = vscaleTo(movement.jumpTimer*global.dt, jumpVel);
 	
 	//Find a safe spot to land within <offset> degrees in either direction.
 	var offset = 45;

@@ -1614,6 +1614,82 @@
                 "resourcePath": "objects\\characterAbsObj\\characterAbsObj.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "37fdcb66-f031-4292-8f81-f70ec280511a",
+            "Value": {
+                "id": "3c5b0b5d-98a7-46e9-a23a-b6f0b6380657",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\37fdcb66-f031-4292-8f81-f70ec280511a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5b90241e-e24e-461f-af57-e728eb89e905",
+            "Value": {
+                "id": "7fd2e1f4-afbd-4941-83c5-c54a9c5aaefd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\5b90241e-e24e-461f-af57-e728eb89e905.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "172ac53a-775c-4a66-970d-7944bd5be809",
+            "Value": {
+                "id": "4e2a2274-a9d6-499f-9e1a-00ab8cece223",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\advancedMovementModule\\advancedMovementModule.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8a5ae01c-cf15-48a7-a8f1-bf315d9eccfd",
+            "Value": {
+                "id": "bc88febc-9b72-45b2-a02a-9f2e8fd39b59",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\attributeModule\\attributeModule.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [

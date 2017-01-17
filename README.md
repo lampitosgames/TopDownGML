@@ -4,6 +4,7 @@ A proof of concept for top down games in GM:S 2.  If I can get some core functio
 # Development Log #
 This is temporary, I'll find a better place later.
 #### January 2017 ####
+- 01/17/17: Started modular character design.
 - 01/12/17: Abstracted the player's core movement code into seperate parent object. This marks the start of NPC work.  NPCs will derive from the same 'Character' class as the player, but use AI instead of player input to determine actions.
 - 01/11/17: Added basic pause functionality. Overhauled pitfalls to use collision boxes. The player only falls if their entire collision box has entered a pitfall object. Added temporary player art from a different game I have lying around.
 - 01/10/17: Added very basic cursor functionality.  The sprite is a placeholder.

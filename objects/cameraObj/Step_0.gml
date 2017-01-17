@@ -3,7 +3,7 @@
 var playerIsFalling = false;
 var playerPos = [0, 0]
 with (playerObj) {
-	playerIsFalling = falling;
+	playerIsFalling = movement.falling;
 	playerPos = [x, y];
 }
 //Get the mouse position
