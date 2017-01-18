@@ -1,5 +1,5 @@
 /// @description Insert description here
-
+event_inherited();
 //If the player is within an aggro radius
 var playerPos = [0, 0];
 with (playerObj) {

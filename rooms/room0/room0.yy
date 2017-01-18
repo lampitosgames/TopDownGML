@@ -167,7 +167,7 @@
             "mvc": "1.0",
             "depth": 0,
             "hierarchyFrozen": false,
-            "hierarchyVisible": false,
+            "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -179,7 +179,7 @@
             "m_serialiseFrozen": false,
             "name": "controllers",
             "userdefined_depth": false,
-            "visible": false,
+            "visible": true,
             "instances": [
                 {
                     "id": "1e90cdd8-20a9-42c9-90af-eb6731364cff",
@@ -18244,8 +18244,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_5B9C58D3",
-                    "x": 4480,
-                    "y": 1248,
+                    "x": 3200,
+                    "y": 928,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295

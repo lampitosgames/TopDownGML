@@ -1,4 +1,5 @@
 ///@description Move the player based on inputs
+event_inherited();
 //Store player position and velocity
 var vel = [phy_linear_velocity_x, phy_linear_velocity_y];
 var pos = [phy_position_x, phy_position_y];

@@ -1,6 +1,6 @@
 /// @description Setup
 event_inherited();
-
+attr.healthLossOnFall = 100;
 movement = instance_create_depth(0, 0, 0, basicMovementModule);
 movement.char = id;
 //Bounding box for the "feet" of the character

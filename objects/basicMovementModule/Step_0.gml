@@ -69,6 +69,8 @@ if (!isInPitfall && !falling && !global.paused) {
 		isInPitfall = false;
 		falling = false;
 		fallTimer = 0;
+		//subtract from player health
+		char.attr.curHealth -= char.attr.healthLossOnFall;
 		char.phy_position_x = lastSafePos[0];
 		char.phy_position_y = lastSafePos[1];
 		char.phy_linear_velocity_x = 0;

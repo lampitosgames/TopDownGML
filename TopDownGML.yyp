@@ -1804,6 +1804,63 @@
                 "resourcePath": "objects\\frogObj\\frogObj.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "6ac1ed1c-8571-4c18-a3e9-4e82b6ed4e93",
+            "Value": {
+                "id": "e20f2600-077c-4307-b6ca-20de4814f282",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\6ac1ed1c-8571-4c18-a3e9-4e82b6ed4e93.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "608b63f2-8be9-4a72-a886-88702c27a8a4",
+            "Value": {
+                "id": "2c282018-a838-446b-9488-6deaa41b0df7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\pathfindingController\\pathfindingController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fef17dc1-6286-4c2c-9b41-20d33992129d",
+            "Value": {
+                "id": "2d75b92a-9c6b-47f6-9b6d-2ebd2dd7b66f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\pathfindingControllerSpr\\pathfindingControllerSpr.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "room_order": [

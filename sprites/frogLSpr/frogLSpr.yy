@@ -147,7 +147,7 @@
             ]
         }
     ],
-    "height": 102,
+    "height": 64,
     "layers": [
         {
             "id": "a1a05a8d-8119-4274-a193-d5bb045745f5",
@@ -167,7 +167,7 @@
     "swatchColours": null,
     "textureGroup": 0,
     "type": 0,
-    "width": 74,
-    "xorig": 37,
-    "yorig": 51
+    "width": 48,
+    "xorig": 24,
+    "yorig": 32
 }

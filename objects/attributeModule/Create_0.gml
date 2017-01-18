@@ -1,4 +1,7 @@
 /// @description Initialize attributes
+maxHealth = 0;
+curHealth = 0;
+
 vitality = 0;
 endurance = 0;
 armor = 0;
@@ -15,3 +18,5 @@ luck = 0;
 
 critChance = 0.0;
 critDamage = 1;
+
+healthLossOnFall = 0;

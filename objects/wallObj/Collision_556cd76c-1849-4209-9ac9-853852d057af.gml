@@ -1,1 +1,1 @@
-/// @description Collide with the player
+/// @description Collide with characters
