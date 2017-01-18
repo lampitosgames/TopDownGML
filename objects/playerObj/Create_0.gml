@@ -13,3 +13,5 @@ attr.endurance = 5;
 sprintWarmup = 0.5;
 //Step counter for the warmup
 sprintWarmupCounter = 0;
+//Bounding box for the "feet" of the character
+movementBoundingBox = [x-16, y, x+16, y+48];

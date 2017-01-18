@@ -1690,6 +1690,120 @@
                 "resourcePath": "objects\\attributeModule\\attributeModule.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "851c2a5a-2f38-4037-8b68-8d0f14099efb",
+            "Value": {
+                "id": "b79f7202-4456-470c-b1cd-419435b6ee66",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\basicMovementModule\\basicMovementModule.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "301ff2b5-b52b-44ac-bfd6-68b8c9237761",
+            "Value": {
+                "id": "90bbb22f-8706-4f1f-bd09-4206dee33542",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\frogRSpr\\frogRSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "03e58454-69e7-4070-8e22-c06fb1d52966",
+            "Value": {
+                "id": "cb9ead4d-370c-42d9-95a7-1b75be7d405a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\03e58454-69e7-4070-8e22-c06fb1d52966.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "90b8b515-f559-4a08-9849-ed197bf5d831",
+            "Value": {
+                "id": "8d125223-f3af-4e18-b394-21118301b0a4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\frogLSpr\\frogLSpr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "82bde212-9457-471c-8687-fa8a2cb53c59",
+            "Value": {
+                "id": "51ab4894-98ac-465e-bab1-df31c8ba68c8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\82bde212-9457-471c-8687-fa8a2cb53c59.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f532a1fd-14ec-4936-a765-b02daa34d1bd",
+            "Value": {
+                "id": "6a5aacf0-c285-4d8f-881f-e8c836c2c704",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\frogObj\\frogObj.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
