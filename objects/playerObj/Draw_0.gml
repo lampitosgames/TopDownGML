@@ -30,4 +30,12 @@ draw_self();
 if (global.debug) {
 	draw_rectangle_color(phy_position_x - 3, phy_position_y - 3, phy_position_x + 3, phy_position_y + 3, c_blue, c_blue, c_blue, c_blue, false);
 	draw_rectangle_color(movementBoundingBox[0], movementBoundingBox[1], movementBoundingBox[2], movementBoundingBox[3], c_fuchsia, c_fuchsia, c_fuchsia, c_fuchsia, true);
+	
+	//get the nearest path nodes and draw them
+	var currentNode = pGetNodeCoords(phy_position_x, phy_position_y);
+	var otherNodes = pGetAdjacent(currentNode);
+	for (var i=0; i<ds_list_size(otherNodes); i++) {
+		var thisNode = otherNodes[| i];
+		draw_circle_color(thisNode[? "x"], thisNode[? "y"], 10, c_green, c_green, true);
+	}
 }

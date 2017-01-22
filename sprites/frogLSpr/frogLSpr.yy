@@ -1,7 +1,7 @@
 {
     "id": "90b8b515-f559-4a08-9849-ed197bf5d831",
     "modelName": "GMSprite",
-    "mvc": "1.0",
+    "mvc": "1.11",
     "name": "frogLSpr",
     "For3D": false,
     "HTile": false,

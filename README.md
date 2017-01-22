@@ -4,6 +4,8 @@ A proof of concept for top down games in GM:S 2.  If I can get some core functio
 # Development Log #
 This is temporary, I'll find a better place later.
 #### January 2017 ####
+- 01/22/17: Laid the groundwork for vertex-based pathfinding using theta*.  There is now a grid containing obstacles and a grid of "nodes" to path along.  Next step is to implement a line of sight function that takes two nodes and determines if the line between them is valid.
+- 01/21/17: Replaced mp_grid with a custom data structure.
 - 01/18/17: Started the codebase for AI pathfinding. Currently I'm using game maker's mp_grid data structure, but it is incredibly slow and it will be difficult to pathfind with. Next todo item is creating my own data structure that is more suited to my needs.
 - 01/17/17: Started modular character design that uses object composition.
 - 01/12/17: Abstracted the player's core movement code into seperate parent object. This marks the start of NPC work.  NPCs will derive from the same 'Character' class as the player, but use AI instead of player input to determine actions.

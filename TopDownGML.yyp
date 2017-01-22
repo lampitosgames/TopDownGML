@@ -1861,6 +1861,215 @@
                 "resourcePath": "sprites\\pathfindingControllerSpr\\pathfindingControllerSpr.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "eae3f66d-471d-454c-8c3a-c39f811d89b1",
+            "Value": {
+                "id": "a702387c-3b30-4c4d-86e8-976cbaf2a397",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\eae3f66d-471d-454c-8c3a-c39f811d89b1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ae1dc326-47d8-45b2-be35-bee392b2c38b",
+            "Value": {
+                "id": "975ab781-c6bc-42f9-af85-948307395b5c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\pCreateGrid\\pCreateGrid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ae7c9bbb-a886-402f-8661-45b03ba28359",
+            "Value": {
+                "id": "9c234ad3-f929-4f36-a99a-99c741d13eaa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\pSetGridCell\\pSetGridCell.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "91ed9509-eae4-4d9d-83b7-084948205a21",
+            "Value": {
+                "id": "7e7e9f22-4fb2-457d-9be4-5f5a1cf7912e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\pCreateNodes\\pCreateNodes.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9e36dcea-47e0-4177-bb0b-61bef81ed23e",
+            "Value": {
+                "id": "cd6fe720-667e-4be1-8942-54897b4e7d1e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\9e36dcea-47e0-4177-bb0b-61bef81ed23e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "486b5202-0f62-4d59-88b8-a34cd94a74ce",
+            "Value": {
+                "id": "c97fd2f5-9200-454e-a70d-6084fbe7bf3b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\486b5202-0f62-4d59-88b8-a34cd94a74ce.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "06a547a0-4a68-4383-b775-ab5a3aefbc66",
+            "Value": {
+                "id": "35577272-03a7-44ce-b404-32961f66e003",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\pGetNodeCoords\\pGetNodeCoords.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "25324a57-6cba-4e8b-937c-ff01195379d1",
+            "Value": {
+                "id": "b8678400-e8fb-4b72-b574-8d49e1a94299",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\pGetAdjacent\\pGetAdjacent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "95793807-9b4d-43e6-a6b2-35be52122de3",
+            "Value": {
+                "id": "a94707f2-b04c-4ab1-9880-5a6be97aa8d3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\pSetGridRegion\\pSetGridRegion.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1a2b4af1-9ba4-4786-af8f-ecf1abb29f3f",
+            "Value": {
+                "id": "bb7e2c19-c293-4c0e-b3c2-cc0120bfec02",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\pGridCellEmpty\\pGridCellEmpty.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "56fa6361-38e2-40cc-af01-7602beaf3a72",
+            "Value": {
+                "id": "976c519f-8259-49e8-a9ff-13fd7932b437",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\pGridCellEmptyCoords\\pGridCellEmptyCoords.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "room_order": [
@@ -1889,6 +2098,14 @@
         "79739983-163d-40fc-b8e7-437054d66d22",
         "7c924727-3894-4362-a5e1-9ca13cc4655f",
         "ca8eee0c-e833-4449-922b-e15dea01dc51",
+        "ae1dc326-47d8-45b2-be35-bee392b2c38b",
+        "ae7c9bbb-a886-402f-8661-45b03ba28359",
+        "95793807-9b4d-43e6-a6b2-35be52122de3",
+        "1a2b4af1-9ba4-4786-af8f-ecf1abb29f3f",
+        "56fa6361-38e2-40cc-af01-7602beaf3a72",
+        "91ed9509-eae4-4d9d-83b7-084948205a21",
+        "06a547a0-4a68-4383-b775-ab5a3aefbc66",
+        "25324a57-6cba-4e8b-937c-ff01195379d1",
         "b41c3d18-b894-4abf-82b1-2a69ba793192",
         "79f18644-012d-4d8d-9119-48b0a501daf9",
         "69af38c3-9d81-46dc-beb2-6f8f6a216177"
