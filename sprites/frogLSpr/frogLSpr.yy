@@ -1,7 +1,7 @@
 {
     "id": "90b8b515-f559-4a08-9849-ed197bf5d831",
     "modelName": "GMSprite",
-    "mvc": "1.11",
+    "mvc": "1.12",
     "name": "frogLSpr",
     "For3D": false,
     "HTile": false,
@@ -147,6 +147,8 @@
             ]
         }
     ],
+    "gridX": 0,
+    "gridY": 0,
     "height": 64,
     "layers": [
         {
@@ -161,6 +163,7 @@
             "visible": true
         }
     ],
+    "origin": 4,
     "playbackSpeed": 6,
     "playbackSpeedType": 0,
     "sepmasks": false,

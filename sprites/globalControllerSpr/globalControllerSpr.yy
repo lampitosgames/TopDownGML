@@ -1,7 +1,7 @@
 {
     "id": "bccf9d84-77e4-4fcc-bd1a-a9244e277e17",
     "modelName": "GMSprite",
-    "mvc": "1.11",
+    "mvc": "1.12",
     "name": "globalControllerSpr",
     "For3D": false,
     "HTile": false,
@@ -44,6 +44,8 @@
             ]
         }
     ],
+    "gridX": 0,
+    "gridY": 0,
     "height": 64,
     "layers": [
         {
@@ -69,6 +71,7 @@
             "visible": true
         }
     ],
+    "origin": 0,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
     "sepmasks": false,
