@@ -21,7 +21,12 @@ if (xindex + 1 < ds_grid_width(global.pathNodes) && yindex + 1 < ds_grid_height(
 	ds_list_add(adjacent, global.pathNodes[# xindex+1, yindex+1]);
 	ds_list_add(adjacent, global.pathNodes[# xindex+1, yindex]);
 	ds_list_add(adjacent, global.pathNodes[# xindex, yindex+1]);
-	
+}
+for (var i=0; i<ds_list_size(adjacent); i++) {
+	if (adjacent[| i] == -1) {
+		ds_list_delete(adjacent, i);
+		i -= 1;
+	}
 }
 
 return adjacent;

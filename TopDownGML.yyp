@@ -103,11 +103,27 @@
             }
         },
         {
+            "Key": "117055c1-a3c1-42ec-b493-5d311a2cec4a",
+            "Value": {
+                "id": "4a9d9c2a-e243-4b1a-93e6-131db48aa4d2",
+                "resourcePath": "scripts\\pGetVisNeighbors\\pGetVisNeighbors.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "15196fa8-52b3-4b2e-99d0-a36bd151c454",
             "Value": {
                 "id": "f53412c1-67b8-436a-b5c4-e91b2dad40f5",
                 "resourcePath": "views\\15196fa8-52b3-4b2e-99d0-a36bd151c454.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "16f2ef68-52ac-44b8-b25a-b768e8a53a76",
+            "Value": {
+                "id": "4252ea8d-3773-4a9b-989b-e39a56e8fedf",
+                "resourcePath": "scripts\\ds_priority_find\\ds_priority_find.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -148,6 +164,14 @@
                 "id": "bb7e2c19-c293-4c0e-b3c2-cc0120bfec02",
                 "resourcePath": "scripts\\pGridCellEmpty\\pGridCellEmpty.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "20144581-7472-406b-b5bb-34eaa757c012",
+            "Value": {
+                "id": "bafc29e9-636e-48c3-a114-a2c5a263efc7",
+                "resourcePath": "views\\20144581-7472-406b-b5bb-34eaa757c012.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -308,6 +332,14 @@
                 "id": "31a810a9-8772-47a2-9947-0ef7376c2014",
                 "resourcePath": "views\\5c15d97d-0d0d-481e-86af-c8baa6f216fe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5c9a293e-f802-4a8e-92d5-673059f8df12",
+            "Value": {
+                "id": "97da90f3-d2ed-40f4-ac99-6225c2edbc2d",
+                "resourcePath": "scripts\\pDistBetween\\pDistBetween.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -775,6 +807,14 @@
             }
         },
         {
+            "Key": "d01e7fa7-e20e-4f16-82b6-201a25f7401d",
+            "Value": {
+                "id": "2c4857e2-c51c-4233-97c1-084ed5eb81fa",
+                "resourcePath": "scripts\\pAStar\\pAStar.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d326a8a1-c67d-410a-91db-68d37bb5abe8",
             "Value": {
                 "id": "11109e54-b0b2-41d7-8b9f-ddfa4a039dc6",
@@ -927,9 +967,13 @@
         "06a547a0-4a68-4383-b775-ab5a3aefbc66",
         "25324a57-6cba-4e8b-937c-ff01195379d1",
         "16f3cbfa-6288-4c68-8d68-8cc69c0ad28d",
+        "5c9a293e-f802-4a8e-92d5-673059f8df12",
+        "117055c1-a3c1-42ec-b493-5d311a2cec4a",
+        "d01e7fa7-e20e-4f16-82b6-201a25f7401d",
         "b41c3d18-b894-4abf-82b1-2a69ba793192",
         "79f18644-012d-4d8d-9119-48b0a501daf9",
-        "69af38c3-9d81-46dc-beb2-6f8f6a216177"
+        "69af38c3-9d81-46dc-beb2-6f8f6a216177",
+        "16f2ef68-52ac-44b8-b25a-b768e8a53a76"
     ],
     "tutorial": ""
 }

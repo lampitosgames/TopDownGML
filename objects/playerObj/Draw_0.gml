@@ -33,16 +33,21 @@ if (global.debug) {
 	
 	//get the nearest path nodes and draw them
 	var currentNode = pGetNodeCoords(phy_position_x, phy_position_y);
-	var otherNodes = pGetAdjacent(currentNode);
+	var otherNodes = pGetVisNeighbors(currentNode);
 	var mouseNode = pGetNodeCoords(mouse_x, mouse_y);
 	for (var i=0; i<ds_list_size(otherNodes); i++) {
 		var thisNode = otherNodes[| i];
 		draw_circle_color(thisNode[? "x"], thisNode[? "y"], 10, c_green, c_green, true);
 	}
 	
-	if (pLineOfSight(currentNode, mouseNode)) {
-		draw_line_color(currentNode[? "x"], currentNode[? "y"], mouseNode[? "x"], mouseNode[? "y"], c_green, c_green);
-	} else {
-		draw_line_color(currentNode[? "x"], currentNode[? "y"], mouseNode[? "x"], mouseNode[? "y"], c_red, c_red);
+	if (pAStar(currentNode, mouseNode)) {
+		var blaNode = mouseNode;
+		while (blaNode != currentNode) {
+			var parent = blaNode[? "parent"];
+			draw_line_color(blaNode[? "x"], blaNode[? "y"], parent[? "x"], parent[? "y"], c_green, c_green);
+			blaNode = parent;
+		}
 	}
+	
+	ds_list_destroy(otherNodes);
 }
