@@ -119,14 +119,6 @@
             }
         },
         {
-            "Key": "16f2ef68-52ac-44b8-b25a-b768e8a53a76",
-            "Value": {
-                "id": "4252ea8d-3773-4a9b-989b-e39a56e8fedf",
-                "resourcePath": "scripts\\ds_priority_find\\ds_priority_find.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "16f3cbfa-6288-4c68-8d68-8cc69c0ad28d",
             "Value": {
                 "id": "a1d79c6a-6168-49c3-8fb3-d547ac0d87b8",
@@ -847,6 +839,14 @@
             }
         },
         {
+            "Key": "e4149657-c685-4a55-94d9-838f4ea0c0f7",
+            "Value": {
+                "id": "b6d7db6f-1062-4b4f-bfa5-2e5e51637855",
+                "resourcePath": "scripts\\pThetaStar\\pThetaStar.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e6556d88-7c37-4121-be24-79d377631081",
             "Value": {
                 "id": "d4f37d2f-3551-46ff-90f0-834fc21d777d",
@@ -970,10 +970,10 @@
         "5c9a293e-f802-4a8e-92d5-673059f8df12",
         "117055c1-a3c1-42ec-b493-5d311a2cec4a",
         "d01e7fa7-e20e-4f16-82b6-201a25f7401d",
+        "e4149657-c685-4a55-94d9-838f4ea0c0f7",
         "b41c3d18-b894-4abf-82b1-2a69ba793192",
         "79f18644-012d-4d8d-9119-48b0a501daf9",
-        "69af38c3-9d81-46dc-beb2-6f8f6a216177",
-        "16f2ef68-52ac-44b8-b25a-b768e8a53a76"
+        "69af38c3-9d81-46dc-beb2-6f8f6a216177"
     ],
     "tutorial": ""
 }

@@ -1,4 +1,4 @@
-///@description Path from a start node to an end node using basic A* pathfinding
+///@description Path from a start node to an end node using Theta*
 ///@param startNode
 ///@param endNode
 
@@ -44,13 +44,24 @@ while (!ds_priority_empty(open)) {
 				//Set it to have no parent
 				nNode[? "parent"] = noone;
 			}
-			//Update the nodes
-			if (sNode[? "g"] + pDistBetween(sNode, nNode) < nNode[? "g"]) {
-				nNode[? "g"] = sNode[? "g"] + pDistBetween(sNode, nNode);
-				nNode[? "parent"] = sNode;
-				ds_priority_delete_value(open, nNode);
-				ds_priority_add(open, nNode, nNode[? "g"] + pDistBetween(nNode, nEnd));
-				ds_map_add(openMap, nNode, 1);
+			//Update the nodes with Theta* methods
+			if (pLineOfSight(sNode[? "parent"], nNode)) {
+				var sParent = sNode[? "parent"];
+				if (sParent[? "g"] + pDistBetween(sParent, nNode) < nNode[? "g"]) {
+					nNode[? "g"] = sParent[? "g"] + pDistBetween(sParent, nNode);
+					nNode[? "parent"] = sParent;
+					ds_priority_delete_value(open, nNode);
+					ds_priority_add(open, nNode, nNode[? "g"] + pDistBetween(nNode, nEnd));
+					ds_map_add(openMap, nNode, 1);
+				}
+			} else {
+				if (sNode[? "g"] + pDistBetween(sNode, nNode) < nNode[? "g"]) {
+					nNode[? "g"] = sNode[? "g"] + pDistBetween(sNode, nNode);
+					nNode[? "parent"] = sNode;
+					ds_priority_delete_value(open, nNode);
+					ds_priority_add(open, nNode, nNode[? "g"] + pDistBetween(nNode, nEnd));
+					ds_map_add(openMap, nNode, 1);
+				}
 			}
 		}
 	}
