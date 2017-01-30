@@ -8,14 +8,19 @@ var nEnd = argument1;
 var open = ds_priority_create();
 var closed = ds_list_create();
 
+//If either the start or end nodes are blocked by objects, there is no valid path.  Return false
+if (!pGridCellEmptyCoords(nStart[? "x"], nStart[? "y"]) || !pGridCellEmptyCoords(nEnd[? "x"], nEnd[? "y"])) {
+	return false;
+}
+
 nStart[? "g"] = 0;
 nStart[? "parent"] = nStart;
-ds_priority_add(open, nStart, nStart[? "g"] + pDistBetween(nStart, nEnd)*4);
+ds_priority_add(open, nStart, nStart[? "g"] + pDistBetween(nStart, nEnd));
 
 var maxIterations = 0;
 
 //While there are no remaining open nodes
-while (!ds_priority_empty(open) && maxIterations <= 50) {
+while (!ds_priority_empty(open) && maxIterations <= 100) {
 	maxIterations++;
 	//Pop the node with lowest priority
 	var sNode = ds_priority_delete_min(open);
@@ -47,7 +52,7 @@ while (!ds_priority_empty(open) && maxIterations <= 50) {
 				nNode[? "g"] = sNode[? "g"] + pDistBetween(sNode, nNode);
 				nNode[? "parent"] = sNode;
 				ds_priority_delete_value(open, nNode);
-				ds_priority_add(open, nNode, nNode[? "g"] + pDistBetween(nNode, nEnd)*4);
+				ds_priority_add(open, nNode, nNode[? "g"] + pDistBetween(nNode, nEnd));
 			}
 		}
 	}

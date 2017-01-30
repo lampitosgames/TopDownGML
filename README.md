@@ -4,6 +4,8 @@ A proof of concept for top down games in GM:S 2.  If I can get some core functio
 # Development Log #
 This is temporary, I'll find a better place later.
 #### January 2017 ####
+- 01/29/17: Added checks to A* that determine if start/end nodes are blocked by walls.  The algorithm still needs a lot of optimization if I'm going to run it every step for multiple objects.
+- 01/28/17: Added underlying code and implemented a basic A* pathfinding algorithm.  Updated game maker.
 - 01/25/17: Setting up and testing new dev environment on my laptop.
 - 01/22/17: Laid the groundwork for vertex-based pathfinding using theta*.  There is now a grid containing obstacles and a grid of "nodes" to path along.  Next step is to implement a line of sight function that takes two nodes and determines if the line between them is valid.
 - 01/21/17: Replaced mp_grid with a custom data structure.
