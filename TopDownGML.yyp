@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "503c978b-9a9e-4f62-ae14-b56f3952f71f",
+            "Value": {
+                "id": "ccb88f17-1d3d-44dc-95eb-c4b3a3a3f9bd",
+                "resourcePath": "scripts\\pGetAdjJPS\\pGetAdjJPS.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "506922b8-571f-4966-9708-bbb13acaf432",
             "Value": {
                 "id": "04fbc849-d85d-4852-91bf-1369ac09c933",
@@ -969,6 +977,7 @@
         "16f3cbfa-6288-4c68-8d68-8cc69c0ad28d",
         "5c9a293e-f802-4a8e-92d5-673059f8df12",
         "117055c1-a3c1-42ec-b493-5d311a2cec4a",
+        "503c978b-9a9e-4f62-ae14-b56f3952f71f",
         "d01e7fa7-e20e-4f16-82b6-201a25f7401d",
         "e4149657-c685-4a55-94d9-838f4ea0c0f7",
         "b41c3d18-b894-4abf-82b1-2a69ba793192",

@@ -31,8 +31,8 @@ while (!ds_priority_empty(open)) {
 	//Add the sNode to the list of visited nodes
 	ds_list_add(closed, sNode);
 	//Get visible neighbors of the node and loop through them
-	var neighbors = pGetVisNeighbors(sNode);
-	print("hi");
+	//var neighbors = pGetVisNeighbors(sNode);
+	var neighbors = pGetAdjJPS(sNode);
 	for (var i=0; i<ds_list_size(neighbors); i++) {
 		var nNode = neighbors[| i];
 		//If the neighbor node is not in the closed list

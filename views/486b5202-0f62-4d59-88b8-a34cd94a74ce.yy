@@ -10,7 +10,8 @@
         "16f3cbfa-6288-4c68-8d68-8cc69c0ad28d",
         "5c9a293e-f802-4a8e-92d5-673059f8df12",
         "117055c1-a3c1-42ec-b493-5d311a2cec4a",
-        "483e56af-91ed-4bd1-ad32-9066529717d5"
+        "483e56af-91ed-4bd1-ad32-9066529717d5",
+        "503c978b-9a9e-4f62-ae14-b56f3952f71f"
     ],
     "filterType": "GMScript",
     "folderName": "Nodes",
